@@ -19,6 +19,7 @@
 		8397A732250A4B080012DBF6 /* IngredientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397A731250A4B080012DBF6 /* IngredientsViewController.swift */; };
 		8397A734250A4BD40012DBF6 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397A733250A4BD40012DBF6 /* ShoppingViewController.swift */; };
 		8397A736250A4BE70012DBF6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397A735250A4BE70012DBF6 /* SettingsViewController.swift */; };
+		8397A739250A578A0012DBF6 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397A738250A578A0012DBF6 /* MenuTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		8397A731250A4B080012DBF6 /* IngredientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsViewController.swift; sourceTree = "<group>"; };
 		8397A733250A4BD40012DBF6 /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
 		8397A735250A4BE70012DBF6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8397A738250A578A0012DBF6 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,7 +174,7 @@
 		8397A72F250A4A470012DBF6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8397A6FC250A458A0012DBF6 /* RecipesViewController.swift */,
+				8397A737250A574D0012DBF6 /* Recipes */,
 				8397A731250A4B080012DBF6 /* IngredientsViewController.swift */,
 				8397A733250A4BD40012DBF6 /* ShoppingViewController.swift */,
 				8397A735250A4BE70012DBF6 /* SettingsViewController.swift */,
@@ -186,6 +188,15 @@
 				8397A704250A458C0012DBF6 /* Assets.xcassets */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		8397A737250A574D0012DBF6 /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				8397A6FC250A458A0012DBF6 /* RecipesViewController.swift */,
+				8397A738250A578A0012DBF6 /* MenuTableViewController.swift */,
+			);
+			path = Recipes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +333,7 @@
 				8397A6FD250A458A0012DBF6 /* RecipesViewController.swift in Sources */,
 				8397A736250A4BE70012DBF6 /* SettingsViewController.swift in Sources */,
 				8397A6F9250A458A0012DBF6 /* AppDelegate.swift in Sources */,
+				8397A739250A578A0012DBF6 /* MenuTableViewController.swift in Sources */,
 				8397A6FB250A458A0012DBF6 /* SceneDelegate.swift in Sources */,
 				8397A734250A4BD40012DBF6 /* ShoppingViewController.swift in Sources */,
 				8397A703250A458A0012DBF6 /* Grocery.xcdatamodeld in Sources */,
