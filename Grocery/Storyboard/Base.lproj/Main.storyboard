@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="82l-1S-Jwp">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17124"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Recipes-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="RecipesViewController" customModule="Grocery" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recipes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6A-jn-oq9">
+                                <rect key="frame" x="155" y="430" width="104" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="F6A-jn-oq9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5xJ-8R-Chm"/>
+                            <constraint firstItem="F6A-jn-oq9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kUJ-Sp-3nI"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Recipes" image="cookbook 1" id="ayl-h6-3Pg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-443" y="722"/>
+        </scene>
+        <!--Ingredients-->
+        <scene sceneID="jyb-G8-hd6">
+            <objects>
+                <viewController id="gd7-PT-xfc" customClass="IngredientsViewController" customModule="Grocery" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CZ7-5x-Erp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9I7-bN-isa">
+                                <rect key="frame" x="134.5" y="430" width="145" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="AIr-gJ-b0h"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9I7-bN-isa" firstAttribute="centerY" secondItem="CZ7-5x-Erp" secondAttribute="centerY" id="MJg-JK-bx9"/>
+                            <constraint firstItem="9I7-bN-isa" firstAttribute="centerX" secondItem="CZ7-5x-Erp" secondAttribute="centerX" id="VPs-5T-O8T"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Ingredients" image="ingredient 1" id="5EM-rV-mif"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FdS-5R-nnq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="297" y="722"/>
+        </scene>
+        <!--Shopping-->
+        <scene sceneID="yb7-8Z-Xdl">
+            <objects>
+                <viewController id="KxW-nv-utP" customClass="ShoppingViewController" customModule="Grocery" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pd0-9J-bNm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shopping" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vsV-df-Rz5">
+                                <rect key="frame" x="144.5" y="430" width="125" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hPW-nj-yeA"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vsV-df-Rz5" firstAttribute="centerY" secondItem="pd0-9J-bNm" secondAttribute="centerY" id="70b-W5-h8o"/>
+                            <constraint firstItem="vsV-df-Rz5" firstAttribute="centerX" secondItem="pd0-9J-bNm" secondAttribute="centerX" id="dJu-7D-olA"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Shopping" image="cart" catalog="system" id="euO-Be-IBi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BD9-ra-tR8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1038" y="722"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="0gY-1I-YBE">
+            <objects>
+                <viewController id="d0c-ef-c7e" customClass="SettingsViewController" customModule="Grocery" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uU2-AK-c1W">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XYB-zC-Qkl">
+                                <rect key="frame" x="153.5" y="430" width="107" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Jge-nw-ff2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="XYB-zC-Qkl" firstAttribute="centerY" secondItem="uU2-AK-c1W" secondAttribute="centerY" id="bBF-rO-8ut"/>
+                            <constraint firstItem="XYB-zC-Qkl" firstAttribute="centerX" secondItem="uU2-AK-c1W" secondAttribute="centerX" id="gAO-xi-Ob3"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="gearshape" catalog="system" id="mAB-lw-1j4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K5k-I3-p43" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1787" y="722"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="iH9-LA-D6Q">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="82l-1S-Jwp" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lHE-l6-AcI">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="VQc-1L-5hz"/>
+                        <segue destination="gd7-PT-xfc" kind="relationship" relationship="viewControllers" id="3IR-wx-qgy"/>
+                        <segue destination="KxW-nv-utP" kind="relationship" relationship="viewControllers" id="iDI-lN-bHC"/>
+                        <segue destination="d0c-ef-c7e" kind="relationship" relationship="viewControllers" id="6GN-se-gXu"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SRc-ya-Cv7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="654" y="-5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cart" catalog="system" width="128" height="102"/>
+        <image name="cookbook 1" width="25" height="23"/>
+        <image name="gearshape" catalog="system" width="128" height="121"/>
+        <image name="ingredient 1" width="23" height="23"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

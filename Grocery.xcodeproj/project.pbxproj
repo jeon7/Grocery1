@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		8397A6F9250A458A0012DBF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397A6F8250A458A0012DBF6 /* AppDelegate.swift */; };
 		8397A6FB250A458A0012DBF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397A6FA250A458A0012DBF6 /* SceneDelegate.swift */; };
-		8397A6FD250A458A0012DBF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397A6FC250A458A0012DBF6 /* ViewController.swift */; };
+		8397A6FD250A458A0012DBF6 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397A6FC250A458A0012DBF6 /* RecipesViewController.swift */; };
 		8397A700250A458A0012DBF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8397A6FE250A458A0012DBF6 /* Main.storyboard */; };
 		8397A703250A458A0012DBF6 /* Grocery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8397A701250A458A0012DBF6 /* Grocery.xcdatamodeld */; };
 		8397A705250A458C0012DBF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8397A704250A458C0012DBF6 /* Assets.xcassets */; };
 		8397A708250A458C0012DBF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8397A706250A458C0012DBF6 /* LaunchScreen.storyboard */; };
 		8397A713250A458C0012DBF6 /* GroceryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397A712250A458C0012DBF6 /* GroceryTests.swift */; };
 		8397A71E250A458C0012DBF6 /* GroceryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397A71D250A458C0012DBF6 /* GroceryUITests.swift */; };
+		8397A732250A4B080012DBF6 /* IngredientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397A731250A4B080012DBF6 /* IngredientsViewController.swift */; };
+		8397A734250A4BD40012DBF6 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397A733250A4BD40012DBF6 /* ShoppingViewController.swift */; };
+		8397A736250A4BE70012DBF6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397A735250A4BE70012DBF6 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,7 @@
 		8397A6F5250A458A0012DBF6 /* Grocery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grocery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8397A6F8250A458A0012DBF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8397A6FA250A458A0012DBF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8397A6FC250A458A0012DBF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8397A6FC250A458A0012DBF6 /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
 		8397A6FF250A458A0012DBF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8397A702250A458A0012DBF6 /* Grocery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Grocery.xcdatamodel; sourceTree = "<group>"; };
 		8397A704250A458C0012DBF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +54,9 @@
 		8397A719250A458C0012DBF6 /* GroceryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8397A71D250A458C0012DBF6 /* GroceryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryUITests.swift; sourceTree = "<group>"; };
 		8397A71F250A458C0012DBF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8397A731250A4B080012DBF6 /* IngredientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsViewController.swift; sourceTree = "<group>"; };
+		8397A733250A4BD40012DBF6 /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		8397A735250A4BE70012DBF6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +109,13 @@
 			children = (
 				8397A6F8250A458A0012DBF6 /* AppDelegate.swift */,
 				8397A6FA250A458A0012DBF6 /* SceneDelegate.swift */,
-				8397A6FC250A458A0012DBF6 /* ViewController.swift */,
-				8397A6FE250A458A0012DBF6 /* Main.storyboard */,
-				8397A704250A458C0012DBF6 /* Assets.xcassets */,
-				8397A706250A458C0012DBF6 /* LaunchScreen.storyboard */,
 				8397A709250A458C0012DBF6 /* Info.plist */,
-				8397A701250A458A0012DBF6 /* Grocery.xcdatamodeld */,
+				8397A72C250A45AA0012DBF6 /* Data */,
+				8397A72B250A45A70012DBF6 /* Storyboard */,
+				8397A72D250A4A3A0012DBF6 /* Model */,
+				8397A72E250A4A440012DBF6 /* View */,
+				8397A72F250A4A470012DBF6 /* Controller */,
+				8397A730250A4A4A0012DBF6 /* Utility */,
 			);
 			path = Grocery;
 			sourceTree = "<group>";
@@ -129,6 +136,56 @@
 				8397A71F250A458C0012DBF6 /* Info.plist */,
 			);
 			path = GroceryUITests;
+			sourceTree = "<group>";
+		};
+		8397A72B250A45A70012DBF6 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8397A6FE250A458A0012DBF6 /* Main.storyboard */,
+				8397A706250A458C0012DBF6 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		8397A72C250A45AA0012DBF6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8397A701250A458A0012DBF6 /* Grocery.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8397A72D250A4A3A0012DBF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8397A72E250A4A440012DBF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8397A72F250A4A470012DBF6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8397A6FC250A458A0012DBF6 /* RecipesViewController.swift */,
+				8397A731250A4B080012DBF6 /* IngredientsViewController.swift */,
+				8397A733250A4BD40012DBF6 /* ShoppingViewController.swift */,
+				8397A735250A4BE70012DBF6 /* SettingsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8397A730250A4A4A0012DBF6 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8397A704250A458C0012DBF6 /* Assets.xcassets */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +318,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8397A6FD250A458A0012DBF6 /* ViewController.swift in Sources */,
+				8397A732250A4B080012DBF6 /* IngredientsViewController.swift in Sources */,
+				8397A6FD250A458A0012DBF6 /* RecipesViewController.swift in Sources */,
+				8397A736250A4BE70012DBF6 /* SettingsViewController.swift in Sources */,
 				8397A6F9250A458A0012DBF6 /* AppDelegate.swift in Sources */,
 				8397A6FB250A458A0012DBF6 /* SceneDelegate.swift in Sources */,
+				8397A734250A4BD40012DBF6 /* ShoppingViewController.swift in Sources */,
 				8397A703250A458A0012DBF6 /* Grocery.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
