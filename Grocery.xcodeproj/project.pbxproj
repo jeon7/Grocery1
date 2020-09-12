@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83961536250BA16E00DD43E7 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83961535250BA16E00DD43E7 /* Storyboard.swift */; };
 		8397A6F9250A458A0012DBF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397A6F8250A458A0012DBF6 /* AppDelegate.swift */; };
 		8397A6FB250A458A0012DBF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397A6FA250A458A0012DBF6 /* SceneDelegate.swift */; };
 		8397A6FD250A458A0012DBF6 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397A6FC250A458A0012DBF6 /* RecipesViewController.swift */; };
@@ -20,6 +21,7 @@
 		8397A734250A4BD40012DBF6 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397A733250A4BD40012DBF6 /* ShoppingViewController.swift */; };
 		8397A736250A4BE70012DBF6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397A735250A4BE70012DBF6 /* SettingsViewController.swift */; };
 		8397A739250A578A0012DBF6 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397A738250A578A0012DBF6 /* MenuTableViewController.swift */; };
+		8397A73B250A5C080012DBF6 /* ContentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397A73A250A5C080012DBF6 /* ContentTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83961535250BA16E00DD43E7 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		8397A6F5250A458A0012DBF6 /* Grocery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grocery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8397A6F8250A458A0012DBF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8397A6FA250A458A0012DBF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +62,7 @@
 		8397A733250A4BD40012DBF6 /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
 		8397A735250A4BE70012DBF6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		8397A738250A578A0012DBF6 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		8397A73A250A5C080012DBF6 /* ContentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83961534250BA15E00DD43E7 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				83961535250BA16E00DD43E7 /* Storyboard.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
 		8397A6EC250A458A0012DBF6 = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +197,7 @@
 		8397A730250A4A4A0012DBF6 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				83961534250BA15E00DD43E7 /* Constant */,
 				8397A704250A458C0012DBF6 /* Assets.xcassets */,
 			);
 			path = Utility;
@@ -195,6 +208,7 @@
 			children = (
 				8397A6FC250A458A0012DBF6 /* RecipesViewController.swift */,
 				8397A738250A578A0012DBF6 /* MenuTableViewController.swift */,
+				8397A73A250A5C080012DBF6 /* ContentTableViewController.swift */,
 			);
 			path = Recipes;
 			sourceTree = "<group>";
@@ -331,9 +345,11 @@
 			files = (
 				8397A732250A4B080012DBF6 /* IngredientsViewController.swift in Sources */,
 				8397A6FD250A458A0012DBF6 /* RecipesViewController.swift in Sources */,
+				8397A73B250A5C080012DBF6 /* ContentTableViewController.swift in Sources */,
 				8397A736250A4BE70012DBF6 /* SettingsViewController.swift in Sources */,
 				8397A6F9250A458A0012DBF6 /* AppDelegate.swift in Sources */,
 				8397A739250A578A0012DBF6 /* MenuTableViewController.swift in Sources */,
+				83961536250BA16E00DD43E7 /* Storyboard.swift in Sources */,
 				8397A6FB250A458A0012DBF6 /* SceneDelegate.swift in Sources */,
 				8397A734250A4BD40012DBF6 /* ShoppingViewController.swift in Sources */,
 				8397A703250A458A0012DBF6 /* Grocery.xcdatamodeld in Sources */,
